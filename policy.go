@@ -8,7 +8,7 @@ import (
 
 const (
 	// Number of cache data store will be 2 ^ concurrencyLevel.
-	concurrencyLevel = 2
+	concurrencyLevel = 3
 	segmentCount     = 1 << concurrencyLevel
 	segmentMask      = segmentCount - 1
 )
